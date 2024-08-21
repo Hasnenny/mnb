@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "Bronoks"]
+	url = https://github.com/Hasnenny/mnb
+	fetch = +refs/heads/*:refs/Bronoks/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
